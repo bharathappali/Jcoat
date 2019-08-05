@@ -1,0 +1,12 @@
+name: jcoat
+version: "0.1.0"
+about: javacore analysing tool for OpenJ9
+author: bharath appali <bharath.appali@gmail.com>
+
+args:
+    - file:
+        help: File path of javacore to analyse
+        short: f
+        long: file
+        multiple: false
+        takes_value: true
